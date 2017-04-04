@@ -13,8 +13,6 @@
 
 @interface ViewController ()
 
-@property (nonatomic, strong) Database *database;
-
 @end
 
 @implementation ViewController

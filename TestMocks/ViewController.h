@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+@class Database;
 @class TwitterConnection;
 @class TweetView;
 
@@ -15,6 +16,7 @@
 - (void) updateUserDefaults;
 - (void) updateDatabase;
 
+@property (nonatomic, strong) Database *database;
 @property(retain) TwitterConnection *connection;
 @property(retain) TweetView *tweetView;
 

@@ -19,6 +19,8 @@
 		B9A1DFD11E932BA5001D5EB2 /* TwitterConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A1DFD01E932BA5001D5EB2 /* TwitterConnection.m */; };
 		B9A1DFD41E932BBD001D5EB2 /* TweetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A1DFD31E932BBD001D5EB2 /* TweetView.m */; };
 		B9A1DFD71E932C3A001D5EB2 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A1DFD61E932C3A001D5EB2 /* Tweet.m */; };
+		B9A1DFDD1E933084001D5EB2 /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A1DFDC1E933084001D5EB2 /* Network.m */; };
+		B9A1DFE01E93325C001D5EB2 /* NetworkItems.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A1DFDF1E93325C001D5EB2 /* NetworkItems.m */; };
 		EAE7BBB67D2043A4301A6810 /* libPods-TestMocksTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B76F614B33A1F9AEB5390483 /* libPods-TestMocksTests.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,10 @@
 		B9A1DFD31E932BBD001D5EB2 /* TweetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetView.m; sourceTree = "<group>"; };
 		B9A1DFD51E932C3A001D5EB2 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
 		B9A1DFD61E932C3A001D5EB2 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		B9A1DFDB1E933084001D5EB2 /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		B9A1DFDC1E933084001D5EB2 /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
+		B9A1DFDE1E93325C001D5EB2 /* NetworkItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkItems.h; sourceTree = "<group>"; };
+		B9A1DFDF1E93325C001D5EB2 /* NetworkItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkItems.m; sourceTree = "<group>"; };
 		DC720C8BD6E2513EDC0C85DE /* Pods-TestMocks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMocks.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestMocks/Pods-TestMocks.release.xcconfig"; sourceTree = "<group>"; };
 		F08A5DC7FD8C2D3FA77E4DF9 /* libPods-TestMocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestMocks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A6A35432539C02A450987F /* Pods-TestMocksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMocksTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestMocksTests/Pods-TestMocksTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +143,10 @@
 				B9A1DFD61E932C3A001D5EB2 /* Tweet.m */,
 				B9A1DFCC1E932952001D5EB2 /* Database.h */,
 				B9A1DFCD1E932952001D5EB2 /* Database.m */,
+				B9A1DFDB1E933084001D5EB2 /* Network.h */,
+				B9A1DFDC1E933084001D5EB2 /* Network.m */,
+				B9A1DFDE1E93325C001D5EB2 /* NetworkItems.h */,
+				B9A1DFDF1E93325C001D5EB2 /* NetworkItems.m */,
 				B9A1DFB01E9326A9001D5EB2 /* Main.storyboard */,
 				B9A1DFB31E9326A9001D5EB2 /* Assets.xcassets */,
 				B9A1DFB51E9326A9001D5EB2 /* LaunchScreen.storyboard */,
@@ -367,11 +377,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9A1DFD41E932BBD001D5EB2 /* TweetView.m in Sources */,
+				B9A1DFE01E93325C001D5EB2 /* NetworkItems.m in Sources */,
 				B9A1DFAF1E9326A9001D5EB2 /* ViewController.m in Sources */,
 				B9A1DFAC1E9326A9001D5EB2 /* AppDelegate.m in Sources */,
 				B9A1DFD71E932C3A001D5EB2 /* Tweet.m in Sources */,
 				B9A1DFD11E932BA5001D5EB2 /* TwitterConnection.m in Sources */,
 				B9A1DFCE1E932952001D5EB2 /* Database.m in Sources */,
+				B9A1DFDD1E933084001D5EB2 /* Network.m in Sources */,
 				B9A1DFA91E9326A9001D5EB2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
